@@ -5,8 +5,8 @@ const bcrypt = require('bcrypt');
 let conn = new Mysqli({
     Host: 'localhost', // IP/domain name 
     post: 3306, // port, default 3306 
-    user: 'root', // username 
-    passwd: 'bvieira1', // password 
+    user: '', // username 
+    passwd: '', // password 
     db: 'shop'
 });
 
