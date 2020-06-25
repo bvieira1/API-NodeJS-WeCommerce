@@ -12,7 +12,7 @@ let conn = new Mysqli({
 
 let db = conn.emit(false, '');
 
-const secret = "1SBz93MsqTs7KgwARcB0I0ihpILIjk3w";
+const secret = "";
 
 module.exports = {
     database: db,
